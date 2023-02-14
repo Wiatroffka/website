@@ -1,0 +1,145 @@
+/* Reset the default margin and padding of all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the font family and background color of the webpage */
+  body {
+    animation: color-change 10s infinite;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+  }
+
+  @keyframes color-change {
+    0% { background-color: #ffffff; }
+    10% { background-color: #fee5f2; }
+    20% { background-color: #fccee6; }
+    30% { background-color: #f8acd3; }
+    40% { background-color: #f793c6; }
+    50% { background-color: #f771b6; }
+    60% { background-color: #f793c6; }
+    70% { background-color: #f8acd3; }
+    80% { background-color: #fccee6; }
+    90% { background-color: #fee5f2; }
+    100% { background-color: #ffffff; }
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    background-color: #7c0046;
+    color: #f9cfff;
+    padding: 20px;
+    justify-content: center
+  }
+  
+  header h1 {
+    margin: 0;
+    height: 10%;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    text-align: center;
+    background-color: #c5217e;
+    color: #f9cfff;
+    padding: 10px;
+    justify-content: center
+  }
+  
+  nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-align: center;
+    color: #f9cfff;
+    text-decoration: none;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+    height: 80%;
+  }
+  
+  main h2 {
+    margin-bottom: 10px;
+
+  }
+
+  .question {
+    color:#7c0046;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #7c0046;
+    color: #f9cfff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Style of the buttons */
+  #button-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  height: 300px;
+  }
+  
+  #yesbutton {
+    background-color: #7c0046;
+    color: white;
+    border-style: inset;
+    border-radius: 30px;
+    font-size: 40px;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+    position: absolute;
+    left: 70%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  #escape-button {
+    background-color: #7c0046;
+    color: white;
+    border-style: inset;
+    border-radius: 30px;
+    font-size: 40px;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+    

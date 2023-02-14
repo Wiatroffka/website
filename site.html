@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+
+    <header>
+      <h1>Wesołych walentynek!</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="walentynka1.html">Walentynka 1</a></li>
+        <li><a href="walentynka2.html">Walentynka 2</a></li>
+        <li><a href="walentynka3.html">Walentynka 3</a></li>
+      </ul>
+    </nav>
+    
+
+    <main>
+        <div class="question">
+            <h1>Czy zostaniesz moją walentynką?</h1>
+        </div>
+        <div id="button-container">
+          <button id="escape-button">Nie</button>
+          <button id="yesbutton" onclick="gotoyespage()">Tak</button>
+        </div>
+        <script src="site.js"></script>
+        <script>function gotoyespage(){
+          location.href = 'yes.html';
+        }
+        </script>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Strona walentynkowa dla Karolka, by było bardziej cringowo</p>
+    </footer>
+  </body>
+</html>
